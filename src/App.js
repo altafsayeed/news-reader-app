@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Alan AI News Application</h1>
+      <h1>Alan AI News</h1>
     </div>
   );
 };
