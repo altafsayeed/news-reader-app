@@ -26,7 +26,7 @@ const App = () => {
     <div>
       <div className={classes.logoContainer}>
         <img
-          src="https://im.ezgif.com/tmp/ezgif-1-fc1b1f3120b8.gif"
+          src="https://imgur.com/a/KKQ5DIx"
           className={classes.homeLogo}
           alt="voice logo"
         />
