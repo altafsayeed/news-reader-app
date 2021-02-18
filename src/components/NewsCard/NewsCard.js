@@ -9,14 +9,19 @@ import {
   Typography,
 } from "@material-ui/core";
 
+import useStyles from "./styles.js";
+
 const NewsCard = ({
   article: { description, publishedAt, source, title, url, urlToImage },
   i,
 }) => {
+  const classes = useStyles();
+
   return (
     <Card>
       <CardActionArea>
         <CardMedia
+          className={classes.media}
           image={
             urlToImage ||
             "https://www.electrocore.com/wp-content/uploads/2017/12/article_generic_1440x634px-e1515567133169no-news.jpg"
