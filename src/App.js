@@ -15,11 +15,11 @@ const App = () => {
   const classes = useStyles();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     alanBtn({
       key: alanKey,
       onCommand: ({ command, articles, number }) => {
         if (command === "newHeadlines") {
-          window.scrollTo(0, 0);
           setNewsArticles(articles);
           setActiveArticle(-1);
         } else if (command === "highlight") {
