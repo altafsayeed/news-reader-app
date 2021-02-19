@@ -19,6 +19,7 @@ const App = () => {
       key: alanKey,
       onCommand: ({ command, articles, number }) => {
         if (command === "newHeadlines") {
+          window.scrollTo(0, 0);
           setNewsArticles(articles);
           setActiveArticle(-1);
         } else if (command === "highlight") {
