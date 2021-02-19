@@ -28,7 +28,7 @@ const App = () => {
             number.length > 2
               ? wordsToNumbers(number, { fuzzy: true })
               : number;
-          //const article = articles[parsedNumber - 1];
+          const article = articles[parsedNumber - 1];
 
           if (parsedNumber > 20) {
             alanBtn().playText(
