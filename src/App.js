@@ -36,7 +36,6 @@ const App = () => {
             );
           } else if (article) {
             window.open(article.url, "_blank");
-            alanBtn().playText("Opening...");
           }
         }
       },
