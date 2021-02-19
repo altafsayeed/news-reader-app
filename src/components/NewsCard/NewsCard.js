@@ -24,7 +24,7 @@ const NewsCard = ({
           className={classes.media}
           image={
             urlToImage ||
-            "https://www.electrocore.com/wp-content/uploads/2017/12/article_generic_1440x634px-e1515567133169no-news.jpg"
+            "https://9to5mac.com/wp-content/uploads/sites/6/2017/08/youtube_logo_dark.jpg?quality=82&strip=all"
           }
         />
         <div className={classes.details}>
