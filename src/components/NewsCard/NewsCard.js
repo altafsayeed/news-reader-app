@@ -69,9 +69,6 @@ const NewsCard = ({
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
         <Typography variant="h5" color="textSecondary">
           {i + 1}
         </Typography>
