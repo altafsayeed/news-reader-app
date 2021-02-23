@@ -5,7 +5,12 @@ import useStyles from "./styles.js";
 import NewsCard from "../NewsCard/NewsCard";
 
 const infoCards = [
-  { color: "#00838f", title: "Latest News", text: "Give me the latest news" },
+  {
+    color: "#00838f",
+    title:
+      "Search for news by category, term, or by news source. You can also get the latest top/trending articles by using the following command:",
+    text: "Give me the latest news.",
+  },
   {
     color: "#1565c0",
     title: "News by Categories",
@@ -16,14 +21,14 @@ const infoCards = [
   {
     color: "#4527a0",
     title: "News by Terms",
-    info: "Bitcoin, PlayStation 5, Smartphones, Donald Trump...",
-    text: "What's up with PlayStation 5",
+    info: "Bitcoin, Elon Musk, Coronavirus, Basketball, etc.",
+    text: "What's up with Bitcoin?",
   },
   {
     color: "#283593",
     title: "News by Sources",
     info: "CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
-    text: "Give me the news from CNN",
+    text: "Give me the news from BBC News.",
   },
 ];
 
