@@ -8,7 +8,7 @@ const infoCards = [
   {
     color: "#00838f",
     title:
-      "Search for news by category, term, or by news source. You can also get the latest top/trending articles by using the following command:",
+      'Search for news by category, term, or by news source. For instructions, say "Instructions". You can also get general top/trending articles.',
     text: "Give me the latest news.",
   },
   {

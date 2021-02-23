@@ -15,7 +15,6 @@ const App = () => {
   const classes = useStyles();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     alanBtn({
       key: alanKey,
       onCommand: ({ command, articles, number }) => {
