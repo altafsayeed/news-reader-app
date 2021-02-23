@@ -8,7 +8,7 @@ const infoCards = [
   {
     color: "#00838f",
     title:
-      'Search for news by category, term, or by news source. For instructions, say "Instructions". You can also get general top/trending articles.',
+      'Tap the microphone to get started. For instructions, say "Instructions". You can also get general top/trending articles.',
     text: "Give me the latest news.",
   },
   {
